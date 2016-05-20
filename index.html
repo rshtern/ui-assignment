@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta name="x-ua-compatible" content="IE=edge,chrome=1">
+		<meta name="description" content="A simple psd to html layout assignment.">
+		<title>UI - HTML, CSS, JS from PSD assignment, by: Ronen Stern</title>
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div class="container">
+			<aside class="sidebar flex">
+				<hgroup>
+				<div class="logo">
+					<h2><img src="img/logo.svg"> Merkury</h2>
+				</div>
+				</hgroup>
+				<nav class="nav navbar">
+					<ul class="sidebar-menu">
+						<li class="active"><a href=""><img src="img/home.svg">Home</a></li>
+						<li><a href=""><img src="img/workflow.svg">Workflow</a></li>
+						<li><a href=""><img src="img/statistics.svg">Statistics</a></li>
+						<li><a href=""><img src="img/calendar.svg">Caledar</a></li>
+						<li><a href=""><img src="img/users.svg">Users</a></li>
+						<li><a href=""><img src="img/settings.svg">Settings</a></li>
+					</ul>
+				</nav>
+			</aside>
+			<section class="content open-sidebar flex">
+				<header>
+					<div class="nav navbar pull-left">
+						<ul class="left-nav">
+							<li><a href=""><span class="triangle-left hidden"></span><span class="sidebar-menu-icon"><img src="img/hamburger-icon.svg"></span></a></li>
+							<li><a href=""><span class="glyphicon glyphicon-search"></span></a></li>
+						</ul>
+					</div>
+					<div class="nav navbar pull-right">
+						<a href="" class="vertical-menu hidden"><span class="glyphicon glyphicon-option-vertical"></span></a>
+							<ul class="right-nav">
+								<li><a href="" class="btn btn-primary project-btn"><img src="img/plus.svg"> Add project</a></li>
+								<li><a href=""><img src="img/envelope.svg"></a></li>
+								<li><a href="" class="notifications"><img src="img/bell.svg"><span class="badge">3</span></a></li>
+								<li><a href=""><img class="round-image" src="img/profile.jpg"><span class="triangle-down"></span></a></li>
+							</ul>
+					</div>
+				</header>
+				<div class="box-header">
+					<h2>Hello John!</h2>
+				</div>
+				<div class="box-content">
+					<div class="box box-medium">
+						<div class="box-title">
+							<h2>Your Sales</h2>
+							<div class="dropdown pull-right">
+								<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+								Period: <i>Last Year</i>
+								<span class="glyphicon glyphicon-menu-down pull-right"></span>
+								</button>
+								<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+									<li><a href="#">Last Year</a></li>
+									<li><a href="#">This Year</a></li>
+									<li><a href="#">Next Year</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="box-inner">
+							<div class="box-inner-left">
+								<div class="box-graph">
+									<img src="img/graph.png">
+									<div class="graph-data">
+										<h3>1,560</h3>
+										<p>Sales</p>
+									</div>
+								</div>
+							</div>
+							<div class="box-inner-right">
+								<ul class="graph-bullets">
+									<li><i class="fa fa-circle blue-step-0" aria-hidden="true"></i>Websites</li>
+									<li><i class="fa fa-circle blue-step-1" aria-hidden="true"></i>Logo</li>
+									<li><i class="fa fa-circle blue-step-2" aria-hidden="true"></i>Social Media</li>
+									<li><i class="fa fa-circle blue-step-3" aria-hidden="true"></i>Adwords</li>
+									<li><i class="fa fa-circle blue-step-4" aria-hidden="true"></i>E-Commerse</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="box box-large">
+						<div class="box-title">
+							<h2>Report</h2>
+							<div class="dropdown pull-right">
+								<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+								Period: <i>Last Year</i>
+								<span class="glyphicon glyphicon-menu-down pull-right"></span>
+								</button>
+								<ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+									<li><a href="#">Last Year</a></li>
+									<li><a href="#">This Year</a></li>
+									<li><a href="#">Next Year</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="box-inner">
+							<div class="line-graph">
+								<img src="img/graph2.jpg">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="box-content">
+					<div class="box box-small"><img src="img/bottom-1.jpg"></div>
+					<div class="box box-small"><img src="img/bottom-2.jpg"></div>
+					<div class="box box-small"><img src="img/bottom-3.jpg"></div>
+				</div>
+			</section>
+		</div>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+	</body>
+</html>
